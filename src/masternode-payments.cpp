@@ -303,7 +303,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
     CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight +1, blockValue);
 	CAmount developerfeePayment = blockValue * 0.05;
 
-	CBitcoinAddress developerfeeaddress("MVUtbZkQVCe9zET1L9W16kzjsWn5Sexhmq");
+	CBitcoinAddress developerfeeaddress("MH85DF4VeUCunuzoNurcXUy2BMcJRsFBsQ");
     CScript developerfeescriptpubkey = GetScriptForDestination(developerfeeaddress.Get());
 
     if (hasPayment) {
