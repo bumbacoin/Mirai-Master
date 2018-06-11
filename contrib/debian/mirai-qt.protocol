@@ -1,0 +1,11 @@
+[Protocol]
+exec=mirai-qt '%u'
+protocol=mirai
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

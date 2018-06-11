@@ -1,0 +1,26 @@
+# /etc/conf.d/miraid: config file for /etc/init.d/miraid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mirai/mirai.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/miraid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/miraid.pid"
+
+# Where to write miraid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/miraid"
+
+# User and group to own miraid process
+#BITCOIND_USER="mirai"
+#BITCOIND_GROUP="mirai"
+
+# Path to miraid executable
+#BITCOIND_BIN="/usr/bin/miraid"
+
+# Nice value to run miraid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MRI
+Comment=MRI P2P Cryptocurrency
+Comment[fr]=MRI, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MRI, eşten eşe kriptografik sanal para birimi
+Exec=mirai-qt %u
+Terminal=false
+Type=Application
+Icon=mirai128
+MimeType=x-scheme-handler/mirai;
+Categories=Office;Finance;
