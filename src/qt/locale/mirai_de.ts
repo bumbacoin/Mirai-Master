@@ -3757,8 +3757,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"MRI Alert\" admin@foo.com</transl
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
     </message>
     <message>
-        <source>(4444 could be used only on mainnet)</source>
-        <translation>(4444 kann nur im Standardnetz benutzt werden)</translation>
+        <source>(14440 could be used only on mainnet)</source>
+        <translation>(14440 kann nur im Standardnetz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ MRI Core wird heruntergefahren.</translation>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <source>(must be4444 for mainnet)</source>
-        <translation>(muss für Standardnetz4444 sein)</translation>
+        <source>(must be 14440 for mainnet)</source>
+        <translation>(muss für Standardnetz 14440 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

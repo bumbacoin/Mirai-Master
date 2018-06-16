@@ -16,8 +16,8 @@ For further information visit our ANN thread at [BitcoinTalk](https://bitcointal
 • Masternode Requirements: 1,000 MRI  
 • Maturity: 15 Confirmations  
 • Prefix: MRI adresses start with the capital letter "M"   
-• Port: 4444	testnet: 14444  
-• RPCPort: 4445 testnet: 14445  
+• Port: 14440	testnet: 14444  
+• RPCPort: 14441 testnet: 14445  
 • Stake Min Age: 24 hours
 
 

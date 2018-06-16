@@ -59,7 +59,7 @@ SOCKSPolicy accept 127.0.0.1/8
 Log notice file /var/log/tor/notices.log
 ControlPort 9051
 HiddenServiceDir /var/lib/tor/dnet/
-HiddenServicePort 989 127.0.0.1:4444
+HiddenServicePort 989 127.0.0.1:14440
 HiddenServiceStatistics 0
 ORPort 9001
 LongLivedPorts 989
@@ -69,7 +69,7 @@ NumEntryGuards 8
 ```
 
 The directory can be different of course, but (both) port numbers should be equal to
-your miraid's P2P listen port (4444 by default).
+your miraid's P2P listen port (14440 by default).
 ```
 -externalip=X   You can tell mirai about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
@@ -102,7 +102,7 @@ specify:
 ./miraid ... -discover
 ```
 
-and open port 4444 on your firewall (or use -upnp).
+and open port 14440 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

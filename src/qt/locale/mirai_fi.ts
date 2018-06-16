@@ -3765,8 +3765,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "MRI Hälytys" admin@foo.com
         <translation>Luotettaviksi merkittyjä peers:ejä ei voida DoS estää, ja niiden siirtotapahtumat välitetään aina, vaikka ne olisvatkin jo muistivarannossa, käyttökelpoinen esim. yhdyskäytävään</translation>
     </message>
     <message>
-        <source>(4444 could be used only on mainnet)</source>
-        <translation>(4444 voidaan käyttää vain pääverkossa)</translation>
+        <source>(14440 could be used only on mainnet)</source>
+        <translation>(14440 voidaan käyttää vain pääverkossa)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4183,8 +4183,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "MRI Hälytys" admin@foo.com
         <translation>Virheellinen masternoden yksityisavain (masternodeprivkey). Katso lisätietoja dokumentaatiosta.</translation>
     </message>
     <message>
-        <source>(must be4444 for mainnet)</source>
-        <translation>(oltava4444 pääverkossa)</translation>
+        <source>(must be 14440 for mainnet)</source>
+        <translation>(oltava 14440 pääverkossa)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

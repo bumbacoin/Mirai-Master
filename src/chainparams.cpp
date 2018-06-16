@@ -100,7 +100,7 @@ public:
         pchMessageStart[2] = 0x15;
         pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
-        nDefaultPort = 4444;
+        nDefaultPort = 14440;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // MRI starting difficulty is 1 / 2^12  //20
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;

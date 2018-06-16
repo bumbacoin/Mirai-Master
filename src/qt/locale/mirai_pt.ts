@@ -3654,8 +3654,8 @@ https://www.transifex.com/mirai-crypto/mirai-wallet-translations/</translation>
         <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o MRI Core não vai funcionar correctamente.</translation>
     </message>
     <message>
-        <source>(4444 could be used only on mainnet)</source>
-        <translation>(4444 apenas pode ser usado para mainnet)</translation>
+        <source>(14440 could be used only on mainnet)</source>
+        <translation>(14440 apenas pode ser usado para mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4064,8 +4064,8 @@ https://www.transifex.com/mirai-crypto/mirai-wallet-translations/</translation>
         <translation>masternodeprivkey inválida. Por favor reveja a documentação.</translation>
     </message>
     <message>
-        <source>(must be4444 for mainnet)</source>
-        <translation>(deve ser4444 para mainnet)</translation>
+        <source>(must be 14440 for mainnet)</source>
+        <translation>(deve ser 14440 para mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
