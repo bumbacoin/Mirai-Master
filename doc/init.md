@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy miraid.init to /etc/init.d/miraid. Test by running "service miraid start".
 
 Using this script, you can adjust the path and flags to the miraid program by
-setting the MRID and FLAGS environment variables in the file
+setting the miraid and FLAGS environment variables in the file
 /etc/sysconfig/miraid. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

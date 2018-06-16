@@ -188,7 +188,7 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mirais from being stolen by malware infecting your computer.</source>
+        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MRIs from being stolen by malware infecting your computer.</source>
         <translation>MRI ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>

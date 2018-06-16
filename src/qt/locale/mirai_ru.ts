@@ -188,7 +188,7 @@
         <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
-        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mirais from being stolen by malware infecting your computer.</source>
+        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MRIs from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>

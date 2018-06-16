@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2015-2017 The MRI developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -232,8 +232,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "mirai" is a composite category enabling all MRI-related debug output
-            if (ptrCategory->count(string("mirai"))) {
+            // "MRI" is a composite category enabling all mirai-related debug output
+            if (ptrCategory->count(string("MRI"))) {
                 ptrCategory->insert(string("Darksend"));
                 ptrCategory->insert(string("Instantx"));
                 ptrCategory->insert(string("masternode"));

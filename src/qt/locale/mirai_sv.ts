@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mirais from being stolen by malware infecting your computer.</source>
+        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MRIs from being stolen by malware infecting your computer.</source>
         <translation>MRI kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina MRI stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>

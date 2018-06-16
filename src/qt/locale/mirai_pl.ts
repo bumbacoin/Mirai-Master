@@ -188,7 +188,7 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mirais from being stolen by malware infecting your computer.</source>
+        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MRIs from being stolen by malware infecting your computer.</source>
         <translation>MRI zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>

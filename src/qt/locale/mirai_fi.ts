@@ -188,7 +188,7 @@
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mirais from being stolen by malware infecting your computer.</source>
+        <source>MRI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MRIs from being stolen by malware infecting your computer.</source>
         <translation>MRI sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää MRIiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>

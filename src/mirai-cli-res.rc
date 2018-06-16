@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "MRI"
-            VALUE "FileDescription",    "MRI-cli (OSS RPC client for MRI)"
+            VALUE "FileDescription",    "mirai-cli (OSS RPC client for MRI)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "mirai-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "mirai-cli.exe"
-            VALUE "ProductName",        "MRI-cli"
+            VALUE "ProductName",        "mirai-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

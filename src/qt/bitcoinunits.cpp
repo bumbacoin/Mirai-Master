@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2015-2017 The MRI developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case MRI:
-        return QString("mirai");
+        return QString("MRI");
     case mMRI:
-        return QString("mmirai");
+        return QString("mMRI");
     case uMRI:
-        return QString::fromUtf8("umirai");
+        return QString::fromUtf8("uMRI");
     default:
         return QString("???");
     }

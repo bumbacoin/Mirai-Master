@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2015-2017 The MRI developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -50,8 +50,8 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "MRI"
-#define QAPP_ORG_DOMAIN "http://bit.mirais/"
-#define QAPP_APP_NAME_DEFAULT "MRI-Qt"
-#define QAPP_APP_NAME_TESTNET "MRI-Qt-testnet"
+#define QAPP_ORG_DOMAIN "http://bit.MRIs/"
+#define QAPP_APP_NAME_DEFAULT "mirai-Qt"
+#define QAPP_APP_NAME_TESTNET "mirai-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H
