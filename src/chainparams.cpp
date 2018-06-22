@@ -138,8 +138,8 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c2734eea07f7c2bee4299f91aff68f0b97911f97c1d56af679062828605"));
         assert(genesis.hashMerkleRoot == uint256("0x609d634bff436bda54b32a1fe08ed62dbb4b889d209db5da9c70fd7f1095991a"));
 
-        vSeeds.push_back(CDNSSeedData("node1.mirai.tools", "node1.mirai.tools"));
-        vSeeds.push_back(CDNSSeedData("node2.mirai.tools", "node2.mirai.tools"));
+ //       vSeeds.push_back(CDNSSeedData("node1.mirai.tools", "node1.mirai.tools"));
+ //       vSeeds.push_back(CDNSSeedData("node2.mirai.tools", "node2.mirai.tools"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 50);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
