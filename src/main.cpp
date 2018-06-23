@@ -1624,8 +1624,7 @@ int64_t GetBlockValue(int nHeight)
 
     if(nHeight ==      1) {nSubsidy = 1500000;}
     if(nHeight >=      2 && nHeight < 4000) {nSubsidy = 0;}
-    if(nHeight >=   4001 && nHeight < 11000) {nSubsidy = 1;}
-    if(nHeight >=  11001 && nHeight < 25501) {nSubsidy = 50;}
+    if(nHeight >=   4001 && nHeight < 25501) {nSubsidy = 50;}
     if(nHeight >=  25501 && nHeight < 35501) {nSubsidy = 45;}
     if(nHeight >=  35501 && nHeight < 60001) {nSubsidy = 40;}
     if(nHeight >=  60001 && nHeight < 100001) {nSubsidy = 35;}
