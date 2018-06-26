@@ -714,6 +714,9 @@ elif config.sign:
 
 # ------------------------------------------------
 
+input('On some systems it may be useful to copy libboost_system-mt.dylib to the app file in dist folder now. Then press <ENTER> to continue')
+
+
 if config.dmg is not None:
 
     #Patch in check_output for Python 2.6
