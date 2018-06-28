@@ -37,8 +37,13 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         uint256 bnTargetLimit = (~uint256(0) >> 20);
 		
         int64_t nTargetSpacing = Params().TargetSpacing();
-        int64_t nTargetTimespan = Params().TargetTimespan()*40;
- 
+        int64_t nTargetTimespan;
+        
+        // fix difficulty adjustment       
+        if (pindexLast->nHeight <= 5400)
+        	nTargetTimespan = Params().TargetTimespan()*40; // this is 40 days. currently breaking Diff adjustment
+ 		if (pindexLast->nHeight > 5400)
+ 			nTargetTimespan = 42 * 5 * 60; // ~42 blocks. the meaning of blockchain 
         int64_t nActualSpacing = 0;
         if (pindexLast->nHeight != 0)
             nActualSpacing = pindexLast->GetBlockTime() - pindexLast->pprev->GetBlockTime();
